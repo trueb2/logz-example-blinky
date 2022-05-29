@@ -39,7 +39,6 @@ void flip_timer(struct k_timer* timer) {
 	LOG_INF("LED: %d", (int) on);
 	gpio_pin_set(led_dev, PIN, (int)on);
 	on = !on;
-	// example_foo();
 	register uint32_t r0 __asm__("r0") = acc;
 	register uint32_t r1 __asm__("r1") = 0x01020304;
 	register uint32_t r2 __asm__("r2");
