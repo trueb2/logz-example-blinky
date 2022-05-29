@@ -1,0 +1,11 @@
+{
+  "nrf-connect.topdir": "/opt/nordic/ncs/v1.9.1",
+  "nrf-connect.toolchain.path": "/opt/nordic/ncs/v1.9.1/toolchain",
+  "nrf-connect.applications": [
+    "/Users/jwtrueb/Desktop/workspace/blinky"
+  ],
+  "files.associations": {
+    "autoconf.h": "c",
+    "zephyr.h": "c"
+  }
+}
